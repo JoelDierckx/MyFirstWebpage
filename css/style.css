@@ -1,0 +1,124 @@
+body {
+    background-color: yellow;
+}
+.html,.body{
+    height: fit-content;
+    overflow-y: auto;
+}
+.fixed-bottom{
+    background-color: brown;
+    z-index: 100;
+    height: 50px !important;
+}
+.offcanvas{
+    background-color: brown;
+    z-index: 10;
+    width: 200px !important;
+}
+.btn-outline-primary,.btn-primary{
+    background-color: yellow;
+    color: black;
+    border-color: black;
+    border-width: 4px;
+    width: 150px;
+}
+.btn-outline-secondary{
+    color: black;
+    border-color: black;
+    border-width: 4px;
+}
+div.card a.btn-outline-secondary{
+    background-color: yellow;
+}
+
+.topbar,.fixed-top{
+    height: 100px;
+    background-color: brown;
+    
+}
+.topbar2,nav.fixed-top{
+    height: 60px;
+}
+.bottom-bar{
+    height: 100px;
+}
+.corners{
+    height: 100px;
+    background-color: yellow;
+    width: 200px !important;
+    float: left;
+    z-index: 100;
+}
+.spacer{
+    width: 250px !important;
+    min-width: 200px;
+    background-color: yellow;
+    float: left;
+    height: auto;
+}
+.mainscreen{
+    height: 100%;
+    display: flex;
+}
+
+.backgroundimg{
+    backdrop-filter:  blur(2px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid-md{
+    background-color: brown;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;
+    min-height: 60vh;
+}
+.col-md-8{
+    background-color: brown;
+}
+/* .carousel-caption{
+    color: black;
+} */
+
+.menufix{
+    position: fixed;
+    top: 100px;
+    left:20px
+}
+li.nav-item{
+    margin: 5px;
+}
+
+button.btn:hover,a.btn:hover,div.card a.btn-outline-secondary:hover{
+    background-color: black;
+    border-color: black;
+}
+
+nav.navbar div.container-fluid,nav.navbar{
+    background-color: brown !important;
+}
+
+.blockerfooter{
+    height: 20%;
+}
+i,a:visited,a,a:hover{
+ color: black;
+}
+.jumbo{
+    margin-left: 20px;
+}
+.card{
+    background-color: brown;
+}
+.googlemaps {
+    box-sizing: content-box;
+  }
+  video{
+    width: 100%;
+  }
